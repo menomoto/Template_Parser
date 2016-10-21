@@ -20,6 +20,7 @@
 		BA73F98D1DBA607E00ECAAF1 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA73F98C1DBA607E00ECAAF1 /* Parser.swift */; };
 		BA73F98F1DBA630F00ECAAF1 /* PureLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA73F98E1DBA630F00ECAAF1 /* PureLayout.framework */; };
 		BA73F9911DBA674B00ECAAF1 /* Auction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA73F9901DBA674B00ECAAF1 /* Auction.swift */; };
+		BA73F9931DBA6CD800ECAAF1 /* sampel.json in Resources */ = {isa = PBXBuildFile; fileRef = BA73F9921DBA6CD800ECAAF1 /* sampel.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		BA73F98C1DBA607E00ECAAF1 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		BA73F98E1DBA630F00ECAAF1 /* PureLayout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PureLayout.framework; path = Carthage/Build/iOS/PureLayout.framework; sourceTree = "<group>"; };
 		BA73F9901DBA674B00ECAAF1 /* Auction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auction.swift; sourceTree = "<group>"; };
+		BA73F9921DBA6CD800ECAAF1 /* sampel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sampel.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 			children = (
 				BA73F9811DBA3B4000ECAAF1 /* Info.plist */,
 				BA73F9821DBA3B4000ECAAF1 /* SampleSwiftyJSONTests.swift */,
+				BA73F9921DBA6CD800ECAAF1 /* sampel.json */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA73F9831DBA3B4000ECAAF1 /* Info.plist in Resources */,
+				BA73F9931DBA6CD800ECAAF1 /* sampel.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
